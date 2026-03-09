@@ -49,7 +49,7 @@ st.divider()
 # OPENAI
 # ==============================
 
-api_key = WijxO3QcBALTwtGMW3IVMEHqtIHJUYGIkzTn_XKDZ4vN9x82bKizDMDgTdU5j84vMiMc5DbtpIT3BlbkFJB8A3A4od6Kb3fL3iRl1syTlPrY-q8Xec1F_fZncW4G9F-sUB4DL-i9cxHz27Q0AE7Uy7bG5SMA
+api_key = "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"
 
 client = None
 
@@ -401,5 +401,6 @@ DASHBOARD:
         st.error("Erro ao consultar IA.")
 
         st.exception(e)
+
 
 
