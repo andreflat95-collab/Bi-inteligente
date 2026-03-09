@@ -49,7 +49,7 @@ st.divider()
 # OPENAI
 # ==============================
 
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = OPENAI_API_KEY=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
 
 client = None
 
@@ -399,4 +399,5 @@ DASHBOARD:
     except Exception as e:
 
         st.error("Erro ao consultar IA.")
+
         st.exception(e)
